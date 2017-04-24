@@ -1,3 +1,4 @@
+#Função principal do jogo. Chama a apresentação, o menu principal e suas opções. Não roda nada, pois depende de outras funções.
 def jogo():
     while True:
         print('BEM VINDO AO INSPERMON')
@@ -167,3 +168,4 @@ def jogo():
         if jogar == 'b':
             print('Ok, até mais tarde!')
             return
+jogo()
